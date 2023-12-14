@@ -1,0 +1,106 @@
+@media (min-width: 768px) {
+  .history-item-container {
+    display: flex;
+    font-family: Roboto;
+  }
+  .time-logo-title-domainUrl-container {
+    display: flex;
+    width: 93%;
+  }
+  .logo-title-domain-container {
+    display: flex;
+  }
+  .title-domain-container {
+    display: flex;
+  }
+  .time {
+    font-size: 14px;
+    font-weight: bold;
+    color: #64748b;
+    padding-right: 60px;
+  }
+  .logo {
+    height: 25px;
+    width: 25px;
+    margin-right: 20px;
+    margin-top: 14px;
+  }
+  .title {
+    color: #475569;
+    font-size: 15px;
+    font-weight: bold;
+    padding-right: 10px;
+  }
+  .domainUrl {
+    color: #64748b;
+    font-size: 13px;
+    font-weight: 500;
+    padding-top: 5px;
+  }
+  .delete-icon-button {
+    border-style: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 8px;
+  }
+  .delete-icon {
+    height: 25px;
+    width: 25px;
+    color: #475569;
+  }
+}
+
+@media (max-width: 767px) {
+  .history-item-container {
+    display: flex;
+    font-family: Roboto;
+  }
+  .time-logo-title-domainUrl-container {
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    margin-bottom: 4%;
+  }
+  .logo-title-domain-container {
+    display: flex;
+    height: 60px;
+  }
+  .time {
+    font-size: 14px;
+    font-weight: bold;
+    color: #64748b;
+    padding-right: 60px;
+    margin-bottom: 0px;
+  }
+  .logo {
+    height: 25px;
+    width: 25px;
+    margin-right: 20px;
+    margin-top: 15px;
+  }
+  .title {
+    color: #475569;
+    font-size: 15px;
+    font-weight: bold;
+    padding-right: 10px;
+    margin-bottom: 0px;
+  }
+  .domainUrl {
+    color: #64748b;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .delete-icon-button {
+    border-style: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+  }
+  .delete-icon {
+    height: 25px;
+    width: 25px;
+    color: #475569;
+  }
+}
